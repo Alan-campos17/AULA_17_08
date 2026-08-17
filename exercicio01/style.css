@@ -1,19 +1,23 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-.container{
-    background-color: brown;
-    display: flex;
-    gap: 24px;
-    flex-direction: column;
+body {
+    background-color: #1a1a1a;
+    padding: 40px;
 }
 
-.item{
-    background-color: blueviolet;
-    width: 180px;
-    height: 184px;
-    
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.item {
+    background-color: #ec3d78; 
+    width: 80px;
+    height: 80px;
+    border-radius: 12px; 
 }
