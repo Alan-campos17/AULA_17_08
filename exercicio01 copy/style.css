@@ -6,9 +6,6 @@
 
 body {
     background-color: white;
-}
-
-.pagina {
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -29,7 +26,7 @@ body {
     border: 3px solid black;
 }
 
-/* espaço entre os dois grupos da página 2 */
-.separado {
+/* separa o grupo da esquerda do grupo da direita */
+.item:nth-child(2) {
     margin-right: 60px;
 }
