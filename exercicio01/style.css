@@ -6,9 +6,14 @@
 
 .container{
     background-color: brown;
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
 }
 
 .item{
     background-color: blueviolet;
+    width: 180px;
+    height: 184px;
     
 }
