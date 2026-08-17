@@ -16,7 +16,7 @@ body {
     display: flex;
     flex-direction: row;
     gap: 16px;
-    border: solid black 5px;
+    
 }
 
 .item {
