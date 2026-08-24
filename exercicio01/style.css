@@ -21,7 +21,13 @@
     background-color: #f5c6c6;
 }
 
-/* quadrados das páginas 1 e 2 */
+/* moldura da Fase 3 */
+.moldura {
+    border: 6px solid black;
+    margin: 20px;
+}
+
+/* quadrados das páginas 1, 2 e Fase 3 */
 .container {
     display: flex;
     flex-direction: row;
@@ -40,11 +46,11 @@
     margin-right: 60px;
 }
 
-/* barra rosa com bolinha amarela (fases 5 e 6) */
+/* barra rosa com bolinha amarela (Fases 5 e 6) */
 .barra {
     background-color: #ec3d78;
     width: 300px;
-    height: 40px;
+    height: 50px;
     border-radius: 8px;
     display: flex;
     align-items: center;
@@ -56,11 +62,11 @@
     background-color: #f5e642;
     width: 24px;
     height: 24px;
-    border-radius: 50%;
+    border-radius: 8px;
     border: 3px solid black;
 }
 
-/* card branco da fase 6 */
+/* card branco da Fase 6 */
 .card {
     background-color: white;
     width: 380px;
@@ -69,7 +75,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 16px;
+    gap: 20px;
     border: 3px solid black;
 }
 
@@ -79,4 +85,87 @@
     height: 32px;
     border-radius: 8px;
     border: 3px solid black;
+}
+
+/* ================= LayoutCssFlexBox ================= */
+
+.layout-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 90%;
+    max-width: 1000px;
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 16px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 160px;
+}
+
+.grid-bolinhas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.bolinha-media {
+    width: 40px;
+    height: 40px;
+}
+
+.botao-sidebar {
+    background-color: #29b6f6;
+    height: 40px;
+    border-radius: 8px;
+    border: 3px solid black;
+}
+
+/* Conteúdo */
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    flex: 1;
+}
+
+.linha-topo {
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 12px;
+    padding: 12px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.linha {
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 12px;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.bloco-pequeno {
+    background-color: #ec3d78;
+    border: 3px solid black;
+    border-radius: 8px;
+    width: 200px;
+    height: 180px;
+}
+
+.bloco-grande {
+    background-color: #ec3d78;
+    border: 3px solid black;
+    border-radius: 8px;
+    flex: 1;
+    height: 180px;
 }
