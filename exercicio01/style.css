@@ -21,13 +21,11 @@
     background-color: #f5c6c6;
 }
 
-/* moldura da Fase 3 */
 .moldura {
     border: 6px solid black;
     margin: 20px;
 }
 
-/* quadrados das páginas 1, 2 e Fase 3 */
 .container {
     display: flex;
     flex-direction: row;
@@ -46,7 +44,6 @@
     margin-right: 60px;
 }
 
-/* barra rosa com bolinha amarela (Fases 5 e 6) */
 .barra {
     background-color: #ec3d78;
     width: 300px;
@@ -66,7 +63,6 @@
     border: 3px solid black;
 }
 
-/* card branco da Fase 6 */
 .card {
     background-color: white;
     width: 380px;
@@ -87,8 +83,6 @@
     border: 3px solid black;
 }
 
-/* ================= LayoutCssFlexBox ================= */
-
 .layout-wrapper {
     display: flex;
     flex-direction: row;
@@ -97,7 +91,6 @@
     max-width: 1000px;
 }
 
-/* Sidebar */
 .sidebar {
     background-color: white;
     border: 3px solid black;
@@ -127,7 +120,6 @@
     border: 3px solid black;
 }
 
-/* Conteúdo */
 .conteudo {
     display: flex;
     flex-direction: column;
